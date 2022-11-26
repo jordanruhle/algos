@@ -106,7 +106,6 @@ class Playlist {
         output += `${minute}: ${totalSeconds%60}`
         return output.slice(1);
     }
-
 }
 
 

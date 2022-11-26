@@ -1,3 +1,5 @@
+# given an unsorted array of coin values write a function that returns the smallest value of change that cannot be created using the coins fromt the array
+
 def nonConstructibleChange(coins):
     coins.sort()
     highestCount = 0
